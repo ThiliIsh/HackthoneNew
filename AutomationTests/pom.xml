@@ -4,6 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.pearson.automation</groupId>
 	<artifactId>AutomationTests</artifactId>
+	
 	<packaging>jar</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<name>AutomationTests</name>
@@ -12,7 +13,9 @@
 		<dependency>
 			<groupId>com.pearson.pageobjects</groupId>
 			<artifactId>PageObjects</artifactId>
+			<scope>system</scope>
 			<version>1.0-SNAPSHOT</version>
+			<systemPath>C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\HackthonNew\PageObjects\target\PageObjects-1.0-SNAPSHOT.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
