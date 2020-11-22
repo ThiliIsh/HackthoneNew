@@ -27,6 +27,7 @@ public class PageObjectModel {
 		openURL("https://www.bing.com/");
 		BingSearch bingsearch = new BingSearch(driver);
 		bingsearch.getSearchText().sendKeys("Nuwan bandara");
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		bingsearch.getSearchButton().click();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
