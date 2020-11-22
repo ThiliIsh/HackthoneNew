@@ -17,9 +17,9 @@ public class PageObjectModel {
 	/* default constructor */
 	public PageObjectModel() {
 		//System.setProperty("webdriver.gecko.driver", "./lib/geckodriver");
-		WebDriverManager.chromedriver().setup(); 
+		WebDriverManager.firefoxdriver().setup(); 
 
-		driver = new ChromeDriver();
+		driver = new FirefoxDriver();
 	}
 
 	@Test
